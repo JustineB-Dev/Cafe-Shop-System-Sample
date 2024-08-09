@@ -1,0 +1,415 @@
+<HTML>
+<HEAD>
+<TITLE> MENU </TITLE>
+<STYLE>
+html {
+  scroll-behavior: smooth;
+}
+button-30{
+  position: absolute; 
+  appearance: none;
+  background-color: transparent;
+  border: 3px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Serif', cursive;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 120px;
+  height: 100px;
+  color: black;
+  will-change: transform;
+}
+.button-30:disabled {
+  pointer-events: none;
+}
+.button-30:hover {
+  color: #fff;
+  background-color: rgb(242, 207, 8);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.button-35 {
+position: absolute; 
+  align-items: center;
+  background-image: radial-gradient(100% 100% at 100% 0, #CB6607 0, #E5BA09 100%);
+  border-radius: 30px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  width: 60px;
+  height: 25px;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+font-family: cursive;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-35:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+background: yellow;
+}
+.button-35:active {
+color: white;
+background: #814803;
+}
+body {
+  background-image: url("background.jpg");
+  background-size: 500px 500px;
+}
+
+img.logo {
+position: absolute; 
+  left: 150; 
+  top: 120; 
+width: 240px;
+height: 220px;
+}
+.img-wood {
+ margin: 10px;
+padding: 10px;
+border-radius: 50px;
+height: 3900px;
+width: 1200px;
+border: 4px solid black;
+position: relative; 
+  left: 40; 
+  top: 60; 
+}
+.B-name{
+position: absolute;
+font-size: 60px;
+text-shadow: 2px 2px brown;
+font-family: 'Brush Script MT', cursive;
+font-weight: bold;
+font-style: italic;
+color: black;
+top: 85px;
+left: 400px
+}
+.B-menu {
+position: absolute;
+font-size: 35px;
+font-family: cursive;
+font-style: italic;
+color: black;
+top: 350px;
+left: 500px
+}
+.T-name{
+position: absolute;
+font-size: 40px;
+font-family: 'Brush Script MT', cursive;
+color: black;
+top: 240px;
+left: 620px
+}
+.gfg {
+position: relative;
+}
+#headerhr {
+width:1225px;
+position: relative;
+top: -3600px;
+left: 50px;
+}
+.box {
+  position: absolute;
+  height: 3020px;
+  width: 1070px;
+  background-color: white;
+  top: 500px;
+  left: 130px;
+  border: 3px solid black;
+}
+.button-group {
+  display: inline-flex;
+  border: 2px solid black;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.button {
+width: 351px;
+height: 70px;
+  padding: 10px 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 175, 1, 0.616);
+  font-family: cursive;
+font-size: 25px;
+}
+.button:last-child {
+  border-right: none;
+}
+.button:hover {
+  background: #803E0E;
+color: white;
+}
+
+.button01 {
+width: 351px;
+height: 40px;
+  padding: 10px 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 175, 1, 0.616);
+  font-family: cursive;
+font-size: 20px;
+}
+.button01:last-child {
+  border-right: none;
+}
+.button01:hover {
+  background: #803E0E;
+color: white;
+}
+#food {
+  display: none;
+}
+
+#food:target {
+    display: inline-flex;
+width: 1052px;
+height: 40px;
+  outline: none;
+  border: 2px solid black;
+  cursor: pointer;
+  background: rgba(255, 175, 1, 0.616);
+  font-family: cursive;
+font-size: 20px;
+}
+#drink {
+  display: none;
+}
+
+#drink:target {
+    display: inline-flex;
+width: 1052px;
+height: 40px;
+  outline: none;
+  border: 2px solid black;
+  cursor: pointer;
+  background: rgba(255, 175, 1, 0.616);
+  font-family: cursive;
+font-size: 20px;
+}
+.table {
+font-family: cursive;
+position: absolute;
+  width: 50%;
+height: 20%;
+  top: 3580px;
+  font-size: 20px;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+  color: white;
+font-family: cursive;
+}
+.square {
+border-radius: 20px;
+position: absolute;
+  height: 400px;
+  width: 800px;
+  background-color: rgba(81,52,8,.4);
+  top: 3550px;
+  left: 270px;
+  color: white;
+}
+img.LG {
+position: absolute;
+width: 50px;
+height: 50px;
+top: 3750;
+}
+.copyR {
+position: absolute;
+top: 3930px;
+left: 730px;
+}
+.button-01 {
+cursor: pointer;
+}
+.button-01:hover {
+ color: black;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.menu-table {
+position: absolute;
+width: 1035px;
+height: 2500px;
+border: 3px solid black;
+left: 150px;
+top: 650px;
+
+}
+.menu-name {
+color: black; 
+font-size: 60px; 
+height: 5px;
+font-family: cursive;
+}
+.img-prod {
+font-weight: 250px;
+height: 250px;
+  border-radius: 30px;
+}
+.img-top {
+height: 60px;
+width: 60px;
+position: relative;
+left: 1280px;
+}
+.top {
+  --offset: 80px; 
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+}
+</STYLE>
+</HEAD>
+<BODY>
+<div class="gfg" >
+<img src="wood oak.jpg" alt ="Wood" class="img-wood" />
+<img src="logo B.png" class="logo" />
+<div class="B-name"><h1>La Estupendo Cafe</h1></div>
+</div>
+<a href="HOME BUSINESS.HTML" class="button-35" style="top:15px; left:940px;"><i>HOME</i></a>
+<a href="MENU BUSINESS.HTML" class="button-35" style="top:15px; left:1060px;"><i>MENU</i></a>
+<a href="LOGIN.HTML" class="button-35" style="top:15px; left:1180px;"><i>LOGIN</i></a>
+<h2 style="position: absolute; top:70px; left:1040px;"> La Estupendo Cafe&reg; </h2>
+<div id="headerhr"><hr color="black" style="height: 1px;"></div>
+<a href="#" class="top"><img src="top.png" class="img-top" /></a>
+<div class="box"></div>
+<table class="menu-table">
+<tr>
+    <td colspan="3" class="menu-name" >Sandwiches</td>
+  </tr>
+  <tr>
+<td style="width:50%;"><img src="Sandwich/Cheessy Sandwich.png" class="img-prod" /></td>
+    <td style="width:30%; height:10%; color:black; font-size: 40px; text-align: left;">Cheessy Sandwich</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱110.00</i></a></td>
+  </tr>
+  <tr>
+<td><img src="Sandwich/Egg and Bacon Croissant.png" class="img-prod" /></td>
+    <td style="width:80%; height:10%; color:black; font-size: 40px; text-align: left;">Egg and Bacon Croissant</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱119.00</i></a></td>
+  </tr>
+<tr>
+<td><img src="Sandwich/Egg Sandwich.png" class="img-prod" /></td>
+    <td style="width:80%; height:10%; color:black; font-size: 40px; text-align: left;">Egg Sandwich</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱105.00</i></a></td>
+  </tr>
+<tr>
+<td><img src="Sandwich/Fruit Sandwich.png" class="img-prod" /></td>
+    <td style="width:80%; height:10%; color:black; font-size: 40px; text-align: left;">Fruit Sandwich</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱115.00</i></a></td>
+  </tr>
+<tr>
+<td><img src="Sandwich/Grilled Chicken Sandwich.jpg" class="img-prod" /></td>
+    <td style="width:80%; height:10%; color:black; font-size: 40px; text-align: left;">Grilled Chicken Sandwich</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱159.00</i></a></td>
+  </tr>
+<tr>
+<td><img src="Sandwich/Ice Cream Sandwich.jpeg" class="img-prod" /></td>
+    <td style="width:80%; height:10%; color:black; font-size: 40px; text-align: left;">Ice Cream Sandwich</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱145.00</i></a></td>
+  </tr>
+<tr>
+<td><img src="Sandwich/Muffin Jam Sandwich.png" class="img-prod" /></td>
+    <td style="width:80%; height:10%; color:black; font-size: 40px; text-align: left;">Muffin Jam Sandwich</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱99.00</i></a></td>
+  </tr>
+<tr>
+<td><img src="Sandwich/Roast Beef Sandwich.jpg" class="img-prod" /></td>
+    <td style="width:80%; height:10%; color:black; font-size: 40px; text-align: left;">Roast Beef Sandwich</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱169.00</i></a></td>
+  </tr>
+<tr>
+<td><img src="Sandwich/Veggie Sandwich.png" class="img-prod" /></td>
+    <td style="width:80%; height:10%; color:black; font-size: 40px; text-align: left;">Veggie Sandwich</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱115.00</i></a></td>
+  </tr>
+<tr>
+<td><img src="Sandwich/Wanpaku Sandwich.png" class="img-prod" /></td>
+    <td style="width:80%; height:10%; color:black; font-size: 40px; text-align: left;">Wanpaku Sandwich</td>
+    <td style="width:20%; height:10%; color:black; font-size: 40px;"><a href="LOGIN.HTML" class="button-30" style="top:2520px; left:850px;"><i>₱125.00</i></a></td>
+  </tr>
+<tr>
+</table>
+<div>
+<table style="left:330px;" class="table">
+<tr>
+<div ><th colspan = 9 align = center><u> ABOUT </u></tr></div>
+<tr>
+<td align = center><div><td><a href="Our Store.html" class="button-01"> Our Store </td></a></div>
+<td align = center><div><td><a href="MENU BUSINESS.HTML" class="button-01"> Our Product </td></a></div>
+<td align = center><div><td><a href="#" class="button-01"> Costumer Service </td></a></div>
+<td align = center><div><td><a href="About Us.html" class="button-01"> About Us </td></a></div>
+</tr>
+<tr>
+<div class="square"><th colspan = 9 align = center><u> CONTACT US </u></th></div>
+</tr>
+</table>
+<a href="#" ><img src="email.png" class="LG" style="left:400px;"></a>
+<a href="#" ><img src="facebook.png" class="LG" style="left:520px;"></a>
+<a href="#" ><img src="instagram.png" class="LG" style="left:640px;"></a>
+<a href="#" ><img src="twitter.png" class="LG" style="left:760px;"></a>
+<a href="#" ><img src="cellphone.png" class="LG" style="left:880px;"></a>
+<footer class="copyR">&copy; La Estupendo Cafe Company. All rights reserved</footer>
+</div>
+<div class="B-menu"><h1>THE MENU</h1><div>
+<div class="button-group" style="position: absolute; left: -360px; top: 160px;">
+  <a href="#food" ><button class="button" type="button" style="background-color:#803E0E"><b>FOODS</b></button></a>
+  <a href="#drink"><button class="button" type="button"><b>DRINKS</b></button></a>
+  <a href="GIFTCARDS.HTML"><button class="button" type="button"><b>GIFTCARDS</b></button></a>
+</div>
+<div class="button-group" style="position: absolute; left: -360px; top: 240px;" id="food">
+  <a href="BREAD.HTML" ><button class="button01" type="button"><b>Bread</b></button></a>
+  <a href="CAKE.HTML"><button class="button01" type="button"><b>Cake</b></button></a>
+  <a href="SANDWICH.HTML"><button class="button01" type="button"><b>Sandwich</b></button></a>
+</div>
+<div class="button-group" style="position: absolute; left: -360px; top: 240px;" id="drink">
+  <a href="COFFEE.HTML"><button class="button01" type="button"><b>Coffee</b></button></a>
+  <a href="MILKSHAKE.HTML"><button class="button01" type="button"><b>Milk Shake</b></button></a>
+  <a href="TEA.HTML"><button class="button01" type="button"><b>Tea</b></button></a>
+</div>
+</BODY>
+</HTML>
